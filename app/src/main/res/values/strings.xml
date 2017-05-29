@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">FindPostos</string>
+
+    <!-- A -->
+    <string name="action_about">Sobre</string>
+   <!-- <string name="action_settings">Settings</string>-->
+    <string name="about_dialog_text">
+<![CDATA[
+<b>Aplicativo FindPostos 2017</b><br>
+Versao %s<br><br>
+<b> Trabalho de projeto integrador. </b><br><br>
+<b> aplicativo para busca de postos de combustíveis, Regiões: Cachoeirinha e Gravataí </b>. </b><br><br>
+<a href="https://www.facebook.com/fernando.kovaleski">https://www.facebook.com/fernando.kovaleski</a><br><br>
+
+	]]>
+	</string>
+    <string name="about_dialog_title">Projeto Integrador</string>
+    <string name="ok">OK</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Títulos nas UIs -->
+    <string name="title_fragment_listpostos">Lista de Postos</string>
+    <string name="title_fragment_detalheposto">Detalhes do Posto</string>
+    <string name="title_fragment_edicaoposto">Edição do Posto</string>
+    <string name="title_fragment_novoposto">Novo Posto</string>
+    <string name="title_activity_posto">activity_posto</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_listpostos">Lista de Postos</string>
+    <string name="nav_sobre">Sobre</string>
+    <string name="nav_configuracoes">Configurações</string>
+
+
+    <!-- Menu em menu_fragment_postos -->
+    <string name="action_pesquisar">Pesquisar</string>
+    <string name="action_novo">Novo</string>
+    <string name="action_settings">Ferramentas</string>
+
+    <!-- Menu em menu_fragment_edicaoposto.xml-->
+    <string name="action_salvar">Salvar</string>
+    <string name="action_excluir">Excluir</string>
+    <string name="servico_oleo">Troca de Oleo</string>
+    <string name="servico_lavagem">Lavagem</string>
+    <string name="servico_conveniencia">Conveniencia</string>
+    <string name="valor_comumEditText">Comum:</string>
+    <string name="valor_adtivadaEditText">Adtivada:</string>
+    <string name="valor_premiumEditText">Premium:</string>
+    <string name="valor_etanolEditText">Etanol:</string>
+    <string name="valor_dieselEditText">Diesel</string>
+    <string name="valor_NomeTextView">Nome: </string>
+    <string name="valor_CidadeTextView">Cidade: </string>
+    <string name="valor_RuaTextView">Rua: </string>
+    <string name="valor_comumTextview">Comum: </string>
+    <string name="valor_adtivadaTextview">Comum: </string>
+    <string name="valor_premiumTextview">Comum: </string>
+    <string name="valor_etanolTextview">Comum: </string>
+    <string name="valor_dieselTextview">Comum: </string>
+
+
+
+
+    <!-- Menu em menu_fragment_detalheposto.xml -->
+    <string name="action_editar">Editar</string>
+
+    <!-- cidade de postos, como é persistido no BD -->
+    <string name="cidade_todas">Todas</string>
+    <string name="cidade_cachoeirinha">Cachoeirinha</string>
+    <string name="cidade_gravatai">Gravatai</string>
+
+    <!-- Tabs -->
+    <string name="tabs_todas">Todas</string>
+    <string name="tabs_cachoeirinha">Cachoeirinha</string>
+    <string name="tabs_gravatai">Gravatai</string>
+
+    <!-- SearchView -->
+    <string name="hint_searchview">Pesquisar por Cidade</string>
+
+    <!-- Textos para os layouts dos Fragmentos Novo, Detalhe e Edicao -->
+
+    <string name="edNome">Nome</string>
+    <string name="edCidade">Cidade</string>
+    <string name="edRua">Rua</string>
+    <string name="nome_textview">Nome:</string>
+    <string name="cidade_textview">Cidade:</string>
+    <string name="rua_textview">Rua:</string>
+    <string name="combustivel_textview">Combustivel:</string>
+    <string name="preco_textview">Preço:</string>
+    <string name="numero_textview">Numero:</string>
+    <string name="idBandeira_textview">Bandeira:</string>
+    <string name="idLogin_textview">Login:</string>
+    <string name="latitude_textview">Latitude:</string>
+    <string name="longitude_textview">Longitude:</string>
+    <string name="valor_textview">Valor:</string>
+    <string name="tipo_textview">Tipo:</string>
+    <string name="bandeira_petrobras">Petrobras</string>
+    <string name="bandeira_shell">Shell</string>
+    <string name="bandeira_ipiranga">Ipiranga</string>
+    <string name="bandeira_esso">Esso</string>
+    <string name="bandeira_texaco">Texaco</string>
+    <string name="bandeira_outro">Outro</string>
+    <string name="cbLavagem">Lavagem</string>
+    <string name="cbOleo">Troca de Óleo</string>
+    <string name="cbConveniencia">Conveniencia</string>
+    <string name="cb24h">24horas</string>
+
+    <!-- Tipo de Carros, como é persistido no BD -->
+    <string name="tipo_todos">todos</string>
+    <string name="tipo_classicos">classicos</string>
+    <string name="tipo_esportivos">esportivos</string>
+    <string name="tipo_luxo">luxo</string>
+
+
+    <!-- Alert Dialog -->
+    <string name="title_conectividade">Alerta de conectividade.</string>
+    <string name="msg_conectividade">Não há conexão com a internet. Vefirique se você ligou o wi-fi ou os dados móveis.</string>
+    <string name="title_erro">Erro</string>
+    <string name="msg_erro_falhanodownload">Falha ao executar o download.</string>
+    <string name="title_confirmacao">Confirmação</string>
+    <string name="msg_realizadocomsucesso">Operação realizada com sucesso.</string>
+    <string name="alertdialog_buttom_ok">OK</string>
+
+
+    <!-- ProgressDialog -->
+    <string name="progressdialog_wait">Processando ... Aguarde.</string>
+
+    <!-- Mensagens Toasts -->
+    <string name="msg_toast_naohavideo">Não há vídeo cadastrado.</string>
+
+
+
+    <!--Login e cadastro-->
+    <string name="criarConta">Não tem uma conta? Crie uma!</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="logar">Logar</string>
+    <string name="senha">Senha</string>
+    <string name="confsenha">Confirme sua senha</string>
+    <string name="email">Email</string>
+    <string name="title_activity_teste">test</string>
+
+    <!-- ProgressDialog -->
+
+
+    <string name="val_dadosinputs">Você deve inserir pelo menos o nome do carro.</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--configuraçoes e sobre -->
+    <string name="sobre">aqui ficara a area "sobre" do aplicativo</string>
+    <string name="configura">aqui ficara de "configurações" do aplicativo</string>
+
+</resources>

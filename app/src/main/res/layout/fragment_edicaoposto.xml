@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_detalhe_0"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_margin="6dp"
+                android:clickable="false"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="6dp"
+                android:foreground="?attr/selectableItemBackground" >
+
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/frameLayout">
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb_card0_fredicaoposto"
+                            android:layout_gravity="center" />
+
+                        <ImageView
+
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/icIdBadeira_card0_fredicaoposto"
+                            android:layout_gravity="right|top" />
+
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvCidade_card0_fredicaoposto"
+                        android:textSize="18dp"
+                        android:textStyle="normal"
+                        android:text="@string/valor_CidadeTextView"
+                        android:layout_above="@+id/tvRua_card0_fredicaoposto"
+                        android:layout_toRightOf="@+id/frameLayout"
+                        android:layout_toEndOf="@+id/frameLayout" />
+                    <TextView
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvRua_card0_fredicaoposto"
+                        android:textSize="18dp"
+                        android:textStyle="normal"
+                        android:text="@string/valor_RuaTextView"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@+id/frameLayout"
+                        android:layout_toEndOf="@+id/frameLayout" />
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/tvNome_card0_fredicaoposto"
+                        android:textSize="18dp"
+                        android:textStyle="normal"
+                        android:text="@string/valor_NomeTextView"
+                        android:layout_alignBottom="@+id/tvCidade_card0_fredicaoposto"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_detalhe_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:clickable="false"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="6dp"
+                android:foreground="?attr/selectableItemBackground" >
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center" >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cidade_cachoeirinha"
+                            android:id="@+id/rb_cachoeirinha_card1_fredicaoposto"
+                            android:checked="false" />
+
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cidade_gravatai"
+                            android:id="@+id/rb_gravatai_card1_fredicaoposto"
+                            android:checked="false" />
+
+                    </RadioGroup>
+                </RadioGroup>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_detalhe_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:clickable="false"
+
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="6dp"
+                android:foreground="?attr/selectableItemBackground" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+
+                    android:weightSum="1"
+                    android:gravity="center_vertical|center_horizontal">
+
+                    <CheckBox
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cbLavagem"
+                        android:id="@+id/cbLavagem_card2_fredicaoposto" />
+                    <CheckBox
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cb24h"
+                        android:id="@+id/cb24_card2_fredicaoposto" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cbOleo"
+                        android:id="@+id/cbOleo_card2_fredicaoposto" />
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cbConveniencia"
+                        android:id="@+id/cbCoveniencia_card2_fredicaoposto" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_detalhe_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:clickable="false"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="2dp"
+                card_view:cardElevation="6dp"
+                android:foreground="?attr/selectableItemBackground" >
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1"
+                    android:gravity="center_horizontal">
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:text="@string/valor_comumEditText"
+                        android:id="@+id/edComum_card3_fredicaoposto" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:text="@string/valor_adtivadaEditText"
+                        android:id="@+id/edAditivada_card3_fredicaoposto" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:text="@string/valor_premiumEditText"
+                        android:id="@+id/edPremium_card3_fredicaoposto" />
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:text="@string/valor_etanolEditText"
+                        android:id="@+id/edEtanol_card3_fredicaoposto" />
+
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:text="@string/valor_dieselEditText"
+                        android:id="@+id/edDiesel_card3_fredicaoposto" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
